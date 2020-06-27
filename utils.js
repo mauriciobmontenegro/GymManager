@@ -29,37 +29,5 @@ module.exports = {
             iso: `${year}-${month}-${day}`,
             birthday: `${day}/${month}`
         }
-    },
-
-    graduation(value) {
-        if (value == 'EM' ) {
-            return "Ensino Médio Completo"
-        } else if (value == 'ES' ) {
-            return "Ensino Superior Completo"
-        }
-        else if (value == 'ME' ) {
-            return "Mestrado"
-        }
-        else if (value == 'DR' ) {
-            return "Doutorado"
-        }
-    },
-
-    fschoolyear(value) {
-        if (value == '5F' ) {
-            return "5º ano do ensino fundamental"
-        } else if (value == '6F' ) {
-            return "6º ano do ensino fundamental"
-        } else if (value == '7F' ) {
-            return "7º ano do ensino fundamental"
-        } else if (value == '8F' ) {
-            return "8º ano do ensino fundamental"
-        } else if (value == '1M' ) {
-            return "1º ano do ensino médio"
-        } else if (value == '2M' ) {
-            return "2º ano do ensino médio"
-        } else if (value == '3M' ) {
-            return "3º ano do ensino médio"
-        } 
     }
 }
